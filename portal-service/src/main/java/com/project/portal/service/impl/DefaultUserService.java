@@ -14,7 +14,7 @@ public class DefaultUserService implements UserService {
 	private static List<User> users;
 
 	static {
-		users = new ArrayList<User>();
+		users = new ArrayList<>();
 		users.add(new User("1","Bruce Wayne", "Batman","Bruce", "Wayne", "bruce.wayne@jla.com","30 Mar 1939"));
 		users.add(new User("2", "Clark Kent", "Superman","Clark", "Kent", "clark.kent@jla.com", "18 Apr 1938"));
 		users.add(new User("3", "Diana Prince", "Wonder Woman", "Diana", "Prince", "diana.prince@jla.com", "25 Oct 1940"));
