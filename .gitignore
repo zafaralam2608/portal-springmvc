@@ -1,0 +1,6 @@
+.idea/
+*.iml
+
+portal-service/target/
+
+portal-webapp/target/
