@@ -1,6 +1,9 @@
-.idea/
+*.settings
+*.classpath
+*.factorypath
+*.vscode
+*.project
+*.idea
 *.iml
 
-portal-service/target/
-
-portal-webapp/target/
+*/target/
